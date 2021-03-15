@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sending a Request</title>
+</head>
+<body>
+
+<form action="/RequestDemoServlet" method="post">
+<br/><br/>
+
+
+</form>
+
+
+</body>
+</html>

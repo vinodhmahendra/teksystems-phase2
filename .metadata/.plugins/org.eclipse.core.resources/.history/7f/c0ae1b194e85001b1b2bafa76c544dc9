@@ -1,0 +1,60 @@
+package org.simplilearn.workshop;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class RegistrationServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private String firstName = "";
+	private String lastName = "";
+	private String userName = "";
+	private String password = "";
+
+	public void init() throws ServletException {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("JDBC driver loaded");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		sendPageHeader(response);
+		
+		sendPageFooter(response);
+	}
+
+	private void sendPageFooter(HttpServletResponse response)  throws ServletException, IOException {
+		PrintWriter out = response.getWriter();
+		out.println("</CENTER>");
+		out.println("</BODY>");
+		out.prinltn("</HTML>");
+		
+	}
+
+	private void sendPageHeader(HttpServletResponse response) throws ServletException, IOException {
+			response.setContentType("text/html");
+			PrintWriter out = response.getWriter();
+			out.println("<HTML>");
+			out.println("<HEAD>");
+			out.println("<TITLE>Registration Page</TITLE>");
+			out.println("</HEAD>");
+			out.println("<BODY>");
+			out.println("<CENTER>");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+}

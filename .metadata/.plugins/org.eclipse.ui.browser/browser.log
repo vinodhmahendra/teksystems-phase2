@@ -1,0 +1,18 @@
+
+Mar 12, 2021 09:52:05.299 NEW SESSION
+Mar 12, 2021 09:52:05.300 [14152:11200:0312/095205.287:ERROR:pref_model_associator.cc(120)] Failed to deserialize value of preference 'autofill_profile_validity': Line: 2, column: 1, Unexpected token.
+Mar 12, 2021 09:52:21.986 [14152:11200:0312/095221.986:ERROR:device_event_log_impl.cc(214)] [09:52:21.985] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 12, 2021 09:53:17.169 [12448:9512:0312/095317.169:ERROR:pref_model_associator.cc(120)] Failed to deserialize value of preference 'autofill_profile_validity': Line: 2, column: 1, Unexpected token.
+Mar 12, 2021 09:53:27.835 [12448:9512:0312/095327.835:ERROR:device_event_log_impl.cc(214)] [09:53:27.835] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 12, 2021 11:51:48.634 [2416:13864:0312/115148.633:ERROR:pref_model_associator.cc(120)] Failed to deserialize value of preference 'autofill_profile_validity': Line: 2, column: 1, Unexpected token.
+Mar 12, 2021 11:51:59.925 [2416:13864:0312/115159.925:ERROR:device_event_log_impl.cc(214)] [11:51:59.925] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 12, 2021 11:52:11.391 [2416:1156:0312/115211.391:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Mar 12, 2021 11:52:37.789 [2416:1156:0312/115237.788:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Mar 12, 2021 11:52:50.451 [2416:1156:0312/115250.451:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Mar 12, 2021 11:52:52.193 [2416:13864:0312/115252.192:ERROR:device_event_log_impl.cc(214)] [11:52:52.192] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Mar 12, 2021 11:52:57.478 [2416:1156:0312/115257.477:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Mar 12, 2021 11:53:09.494 [2416:1156:0312/115309.493:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Mar 12, 2021 11:54:02.27 [2416:1156:0312/115402.027:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Mar 12, 2021 11:54:33.773 [2416:13864:0312/115433.773:ERROR:device_event_log_impl.cc(214)] [11:54:33.773] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Mar 12, 2021 11:54:35.270 [2416:1156:0312/115435.270:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Mar 12, 2021 11:54:44.510 [2416:1156:0312/115444.510:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
