@@ -39,3 +39,6 @@
 0:0:0:0:0:0:0:1 - - [15/Mar/2021:11:55:11 +0530] "GET /servlets-jdbc/registration HTTP/1.1" 200 631
 0:0:0:0:0:0:0:1 - - [15/Mar/2021:11:55:40 +0530] "POST /servlets-jdbc/registration HTTP/1.1" 200 604
 0:0:0:0:0:0:0:1 - - [15/Mar/2021:11:56:29 +0530] "POST /servlets-jdbc/registration HTTP/1.1" 200 719
+127.0.0.1 - - [15/Mar/2021:12:16:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Mar/2021:12:16:54 +0530] "GET /servlets-jdbc/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [15/Mar/2021:12:17:11 +0530] "GET /servlets-jdbc/dataviewer HTTP/1.1" 200 533

@@ -47,11 +47,13 @@
 			<item value="org.simplilearn.workshop"/>
 		</list>
 		<list key="name">
+			<item value="servlets-jdbc"/>
 			<item value="servlet-filter-sample"/>
 			<item value="building-servlet"/>
 			<item value="welcome-user-maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="servlets-jdbc"/>
 			<item value="servlet-filter-sample"/>
 			<item value="building-servlet"/>
 			<item value="welcome-user-maven"/>
