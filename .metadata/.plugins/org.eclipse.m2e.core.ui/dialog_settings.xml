@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\simplilearn\student\phase2\batch1\cookies-servlet\src\main\webapp\login.html"/>
+			<item value="E:\simplilearn\student\phase2\batch1\session-management"/>
 			<item value="E:\simplilearn\student\phase2\batch1\welcome-user-dynamic"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -47,12 +49,22 @@
 			<item value="org.simplilearn.workshop"/>
 		</list>
 		<list key="name">
+			<item value="jsp-session"/>
+			<item value="jsp-samples"/>
+			<item value="session-object"/>
+			<item value="cookies-servlet"/>
+			<item value="session-management"/>
 			<item value="servlets-jdbc"/>
 			<item value="servlet-filter-sample"/>
 			<item value="building-servlet"/>
 			<item value="welcome-user-maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="jsp-session"/>
+			<item value="jsp-samples"/>
+			<item value="session-object"/>
+			<item value="cookies-servlet"/>
+			<item value="session-management"/>
 			<item value="servlets-jdbc"/>
 			<item value="servlet-filter-sample"/>
 			<item value="building-servlet"/>
@@ -68,6 +80,7 @@
 		</list>
 		<list key="version">
 			<item value="1.0-SNAPSHOT"/>
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
