@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
                                          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
- <session-factory>
+ <session-factory >
   <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
   <property name="hibernate.connection.password">admin</property>
   <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/protein-tracker-batch-one?useSSL=false</property>
@@ -11,9 +11,7 @@
   <property name="hibernate.generate_statistics">true</property>
   <property name="show_sql">true</property>
   <property name="hbm2ddl.auto">create</property>
-  
- <!--  <mapping resource="org/simplilearn/workshop/domain/User.hbm.xml"/> -->
- 
-  <mapping class="org.simplilearn.workshop.domain.User"/>
+  <mapping class="org.simplilearn.workshop.model.Employee"/>
+  <mapping class="org.simplilearn.workshop.model.Account"/>
  </session-factory>
 </hibernate-configuration>
