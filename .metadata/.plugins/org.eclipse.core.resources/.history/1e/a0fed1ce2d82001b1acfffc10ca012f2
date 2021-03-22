@@ -1,7 +1,0 @@
-package org.simplilearn.workshop;
-
-import javax.servlet.http.HttpServlet;
-
-public class WelcomeUser extends HttpServlet{
-
-}
